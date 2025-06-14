@@ -1,0 +1,16 @@
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\bin\Debug\Proiect1_DuncaLuca.exe.config
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\bin\Debug\Proiect1_DuncaLuca.exe
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\bin\Debug\Proiect1_DuncaLuca.pdb
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.csproj.AssemblyReference.cache
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Chest.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Workout.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Properties.Resources.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.csproj.GenerateResource.cache
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.csproj.CoreCompileInputs.cache
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.exe
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.pdb
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Back.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Arms.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Cardio.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Abs.resources
+D:\Faculate\VisualStudioTraining\Proiect1_DuncaLuca\Proiect1_DuncaLuca\obj\Debug\Proiect1_DuncaLuca.Legs.resources

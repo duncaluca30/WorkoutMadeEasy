@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF9DAF1B-507F-4111-AA0C-4EC90E5E3E30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proiect1_DuncaLuca</RootNamespace>
+    <AssemblyName>Proiect1_DuncaLuca</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abs.Designer.cs">
+      <DependentUpon>Abs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arms.Designer.cs">
+      <DependentUpon>Arms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Back.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Back.Designer.cs">
+      <DependentUpon>Back.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cardio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cardio.Designer.cs">
+      <DependentUpon>Cardio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chest.Designer.cs">
+      <DependentUpon>Chest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Legs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Legs.Designer.cs">
+      <DependentUpon>Legs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Workout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workout.Designer.cs">
+      <DependentUpon>Workout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Abs.resx">
+      <DependentUpon>Abs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arms.resx">
+      <DependentUpon>Arms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Back.resx">
+      <DependentUpon>Back.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cardio.resx">
+      <DependentUpon>Cardio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chest.resx">
+      <DependentUpon>Chest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Legs.resx">
+      <DependentUpon>Legs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workout.resx">
+      <DependentUpon>Workout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fundalWorkout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pieptut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tractiuni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\spatemare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cardio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\arms.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picioare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\abdomen %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
